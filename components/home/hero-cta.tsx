@@ -1,6 +1,6 @@
 "use client";
 
-import { SignUpButton, SignInButton } from "@clerk/nextjs";
+import { SignUpButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 
 export function HeroCta() {
@@ -11,11 +11,6 @@ export function HeroCta() {
           Get Started Free
         </Button>
       </SignUpButton>
-      <SignInButton mode="modal">
-        <Button size="lg" variant="outline" className="px-8">
-          Sign In
-        </Button>
-      </SignInButton>
     </div>
   );
 }

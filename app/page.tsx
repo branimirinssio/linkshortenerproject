@@ -26,7 +26,7 @@ const features: Feature[] = [
     icon: <LayoutDashboard className="size-6 text-primary" />,
     title: "Manage Your Links",
     description:
-      "Access all your shortened links in a personal dashboard. View, copy, and organise them with ease.",
+      "Access all your shortened links in a personal dashboard. View, copy, and organize them with ease.",
   },
   {
     icon: <Shield className="size-6 text-primary" />,
